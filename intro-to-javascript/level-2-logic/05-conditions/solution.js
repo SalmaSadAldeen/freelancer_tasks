@@ -12,7 +12,7 @@ function canVote(age) {
 // TODO 2: go from the highest grade down. Once a return runs, the function
 // stops, so each later check already knows the score is below the one above.
 function letterGrade(score) {
-  if (score < 0 || score > 100) return "Invalid"; // BONUS: || means "or"
+  if (score < 0 || score > 100) return "Invalid"; 
   if (score >= 90) return "A";
   if (score >= 80) return "B";
   if (score >= 70) return "C";
